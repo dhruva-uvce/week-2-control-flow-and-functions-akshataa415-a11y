@@ -12,3 +12,10 @@
 # Sample Output 2:  0! = 1
 
 # --- YOUR CODE HERE ---
+n = int(input("Enter a number:"))
+#initialize result to 1
+for i in range (1,n+1):
+  factorial = factorial*i
+  print(f"{n}! = {factorial}")
+
+
