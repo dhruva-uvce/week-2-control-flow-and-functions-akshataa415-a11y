@@ -23,7 +23,7 @@ try:
 
     # Check for valid range (0-100)
     if score < 0 or score > 100:
-        print("Error: Score must be between 0 and 100.")
+        print("Invalid score!Score must be between 0 and 100.")
     elif score >= 90:
         print("Grade: A")
     elif score >= 80:
@@ -34,7 +34,5 @@ try:
         print("Grade: D")
     else:
         print("Grade: F")
-
-except ValueError:
-    print("Error: Please enter a valid integer.")
+        
   
