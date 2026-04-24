@@ -1,4 +1,9 @@
-# Q09. Functions with Default Parameters
+
+    # Using an f-string to format the return val
+    # The ** operator is used for exponentiation in P
+    # Calling greet with only the required 'name' ar   # Output: Hello, Alice!
+    
+    # Calling greet with both argu  # Output: 1024# Q09. Functions with Default Parameters
 #
 # Write the following two functions:
 #
@@ -16,16 +21,22 @@
 
 
 def greet(name, greeting="Hello"):
-    # --- YOUR CODE HERE ---
+    # --- YOUR CODE HERE
+    return f"{greeting},{name}!"
     pass
 
 
 def power(base, exp=2):
     # --- YOUR CODE HERE ---
+    return base ** esp
     pass
 
 
 if __name__ == "__main__":
     # Call the functions and print results
-    # --- YOUR CODE HERE ---
+    print(greet("Alice"))
+    print(greet("Bob","Hi"))
+    print(power(5))
+    print(power(2,10))
+
     pass

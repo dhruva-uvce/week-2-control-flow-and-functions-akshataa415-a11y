@@ -14,3 +14,25 @@
 # Sample Output:  Grade: B
 
 # --- YOUR CODE HERE ---
+# Ask the user for a score
+score_input = input("Enter your score: ")
+
+# Convert input to an integer
+try:
+    score = int(score_input)
+
+    # Check for valid range (0-100)
+    if score < 0 or score > 100:
+        print("Invalid score!Score must be between 0 and 100.")
+    elif score >= 90:
+        print("Grade: A")
+    elif score >= 80:
+        print("Grade: B")
+    elif score >= 70:
+        print("Grade: C")
+    elif score >= 60:
+        print("Grade: D")
+    else:
+        print("Grade: F")
+        
+  
